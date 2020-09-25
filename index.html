@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="Portal de Filmes por Gustavo Lemos">
+  <meta name="author" content="Gustavo Lemos">
+  
+  <title>GL FILMES</title>
+
+  <!-- File CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!--File JavaScript-->
+  <script text="javascript" src="app.js"></script>
+
+  <!-- Bootstrap Framework -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <!--Icon Bootstrap -->
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!--Jquery Carrossel-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+
+  <!--Header-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top h-auto" >
+    <div class="container">      
+      <a class="navbar-brand" href="#"><img src="img/geralIncone.png" class=" align-content-center w-25 h-25" ><b class="btn-dark"> GL</b>FILMES</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#lancamentos">
+              <span class="sr-only">(current) | </span>
+            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#lancamentos">Lançamentoss<span class="recuo-menu">|</span></a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destaques">Destaques<span class="recuo-menu">|</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#avaliacoes">Avalivações<span class="recuo-menu">|</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#entrevistas">Entrevistas<span class="recuo-menu">|</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#novidades">Novidades<span class="recuo-menu"> </span></a>
+          </li>
+          
+          <li class="nav-item">
+            <div class="input-group">
+              <input type="text" class="form-control"  placeholder="Pesquisar filme">
+              <span class="input-group-append">
+                <button class="btn btn-secondary type="button"><img src="img/search.png" class=" align-content-center w-25 h-25" ></button>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  </header>
+  <!--/Header-->
+  
+  <HR class="division">  
+
+   <!--Main--> 
+  <main class="container">
+    <!--Lançamentos-->  
+      <div class="row">
+        <div class="col-md-12">
+        <div class="carrossel0">
+          <h1 id="lancamentos" class="text-center my-4">Lançamentos</h1>
+          <div class="sub-divisor"></div>
+          <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner btn-dark">
+              <div class="carousel-item active">
+                 <div class="media">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fbS0efVvkVU" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">O Batman do multi-verso</h5>
+                    <p class="card-text"> Com o sucesso do coringa do multi-verso a inveja bateu na bat-caverna e o batman do multi-verso ganhou um filme próprio.</p>
+                    <div class="align-items">
+                      <div class="stars">
+                        <form action="">
+                          <label class="star star-5" for="star-5"></label>
+                          <label class="star star-4" for="star-4"></label>
+                        </form>
+                      </div>
+                      <div class="stars-one">
+                        <form action="">
+                          <label class="star-one star-3" for="star-3"></label>
+                          <label class="star-one star-2" for="star-2"></label>
+                          <label class="star-one star-1" for="star-1"></label>
+                        </form>
+                        </div>
+                        </div>
+                  </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="media">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/loRg_2XuABA" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Falando do palhaço do crime</h5>
+                      <p class="card-text"> Em uma levada de filmes ruins da liga da justiça a dc nos surpreende com o coringa do multi-verso de um tempo mais antigo.</p>
+                      <div class="align-items">
+                        <div class="stars">
+                          <form action="">
+                            <label class="star star-5" for="star-5"></label>
+                            <label class="star star-4" for="star-4"></label>
+                          </form>
+                        </div>
+                        <div class="stars-one">
+                          <form action="">
+                            <label class="star-one star-3" for="star-3"></label>
+                            <label class="star-one star-2" for="star-2"></label>
+                            <label class="star-one star-1" for="star-1"></label>
+                          </form>
+                          </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="media">
+                    <div class="embed-responsive embed-responsive-4by3">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ogIwlZqDAtg&t=8s" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Deadpoll 3</h5>
+                      <p class="card-text"> Será que veremos o Anti-herói mais engraçado da Marvel novamente.</p>
+                      <div class="align-items">
+                        <div class="stars">
+                          <form action="">
+                            <label class="star star-5" for="star-5"></label>
+                            <label class="star star-4" for="star-4"></label>
+                          </form>
+                        </div>
+                        <div class="stars-one">
+                          <form action="">
+                            <label class="star-one star-3" for="star-3"></label>
+                            <label class="star-one star-2" for="star-2"></label>
+                            <label class="star-one star-1" for="star-1"></label>
+                          </form>
+                          </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    <!--/Lançamnetos-->
+
+    <HR class="division">
+
+    <!--Destaques-->  
+      <div class="row">
+        
+    
+        <div class="destaques">
+          <h1 id="destaques"class="my-4">Destaques
+            <span>
+              <div class="dropdown float-right">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categorias
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Herói</a>
+                  <a class="dropdown-item" href="#">Anti-herói</a>
+                  <a class="dropdown-item" href="#">Vilão</a>
+                </div>
+              </div>
+            </span>
+          </h1>
+      
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="img/destaques/vingadores.png" alt="Card image cap">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/destaques/vingadoreFimdeJogo.jpg" alt="Card image cap">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/destaques/vingadoresInfinaGuerra.jpg" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+            <div class="container-fluid float-right">
+              <div class="sub-divisor">
+                <button type="button" class="btn btn-secondary float-right"><b>+</b>Carregar mais filmes</button>
+              </div>
+            </div>
+        
+      </div>
+    <!--/Destaques-->
+
+  <HR class="division"> 
+
+  <!--Entrevistas-->
+      <div class="row">
+      <div class="col-md-12">
+      <h1 class="my-4">Entrevistas<br></h1>
+      <div id="entrevistas">
+            <!--Grid row-->
+            <div class="row mb-5">
+
+              <div class="row">
+                <!-- video-testimonail -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="video-testimonial-block">
+                        <div class="video">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QTNsAmR-fYw" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-testimonial-content">
+                        <h4 class="mb10">Entrevista Hilária com Ryan Reynolds</h4>
+                        <p> Ryan Reynolds comenta sobre o sucesso de Deadpoll 2 e comenta sobre o sucesso de bilheteria em entrevista animada.</p>
+                    </div>
+                </div>
+                <!-- /.video-testimonail -->
+                <!-- video-testimonail -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="video-testimonial-block">
+                        <div class="video">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6I6hBhKXf2E" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-testimonial-content">
+                        <h4 class="mb10">Entrevista com elenco de Vingadores</h4>
+                        <p> As melhores brincadeiras e "alfinetadas" entre o helenco de Vingadores Guerra Civil.</p>
+                    </div>
+                </div>
+                <!-- /.video-testimonail -->
+                <!-- video-testimonail -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="video-testimonial-block">
+                        <div class="video">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8NUyugXbhX4" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-testimonial-content">
+                        <h4 class="mb10"> Robert Downey Jr. entrevista Chadwick Boseman</h4>
+                        <p>" Homem de ferro entrevista pantera negra!"<br>Veja o vídeo.</p>
+                    </div>
+                </div>
+              </div>
+            <div class="container-fluid float-right">
+              <div class="sub-divisor">
+                <button type="button" class="btn btn-secondary float-right"><b>+</b>Carregar mais entrevistas</button>
+              </div>
+        </div>
+    </div>
+    </div>
+    <!-- /.video-testimonial-section -->          
+
+      </div>
+      </div> 
+  <!--/Entrevistas-->
+
+    <HR class="division"> 
+
+    <!--Útilmas Avaliações--> 
+      <div class="row">
+          <div class="col-md-12">
+            <h1 id="avaliacoes"class="my-4">Últimas Avaliações<br></h1>
+          <div class="container"><!---Ultimas avaliações-->
+            <div class="row ">
+
+                <div class="col-md-4">
+                    <div class="card-box">
+                        <div class="card-title">
+                          <h2><img class="img-retract" src="img/avaliacoes/me.PNG"  alt="Generic placeholder image">Gustavo Lemos</h2>
+                            <p>"O filme do pantera negra é extremamente rico em cultura afro!"</p>
+                            <div class="align-items">
+                            <div class="stars">
+                              <form action="">
+                                <label class="star star-5" for="star-5"></label>
+                                <label class="star star-4" for="star-4"></label>
+                              </form>
+                            </div>
+                            <div class="stars-one">
+                              <form action="">
+                                <label class="star-one star-3" for="star-3"></label>
+                                <label class="star-one star-2" for="star-2"></label>
+                                <label class="star-one star-1" for="star-1"></label>
+                              </form>
+                              <b>21/09/2020</b>
+                              </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-box">
+                        <div class="card-title">
+                          <h2><img class="img-retract" src="img/avaliacoes/me.PNG"  alt="Generic placeholder image">  Gustavo Lemos</h2>
+                              <p>"O filme do homem de ferro aborta tecnologia de maneira bem emocionante!"</p>
+                            <div class="align-items">
+                              <div class="stars">
+                                <form action="">
+                                  <label class="star star-5" for="star-5"></label>
+                                </form>
+                              </div>
+                              <div class="stars-one">
+                                <form action="">
+                                  <label class="star-one star-4" for="star-4"></label>
+                                  <label class="star-one star-3" for="star-3"></label>
+                                  <label class="star-one star-2" for="star-2"></label>
+                                  <label class="star-one star-1" for="star-1"></label>
+                                </form>
+                                <b>22/09/2020</b>
+                                </div>
+                              </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-box">
+                        <div class="card-title">
+                          <h2><img class="img-retract" src="img/avaliacoes/me.PNG"  alt="Generic placeholder image">  Guga Lemos</h2>
+                              <p>"O filme do homem aranha de volta ao lar é extremamente nostálgico!"</p>
+                            <div class="align-items">
+                              <div class="stars">
+                                <form action="">
+                                  <label class="star star-5" for="star-5"></label>
+                                  <label class="star star-4" for="star-4"></label>
+                                  <label class="star star-3" for="star-3"></label>
+                                  <label class="star star-2" for="star-2"></label>
+                                </form>
+                              </div>
+                              <div class="stars-one">
+                                <form action="">
+                                  <label class="star-one star-1" for="star-1"></label>
+                                </form>
+                                <b>23/09/2020</b>
+                                </div>
+                              </div>   
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="container-fluid float-right">
+                <div class="sub-divisor">
+                  <button type="button" class="btn btn-secondary float-right"><b>+</b>Carregar mais avaliações</button>
+                </div>
+        </div>
+        <div class="sub-divisor"></div>
+        </div>
+      </div>
+      </div>
+    <!--/Útilmas Avaliações-->
+
+    <HR class="division"> 
+
+    <!--Novidade/Sobre/Edição/Redes Sociais-->
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-8">
+            <h1 id="novidades" class="my-4"><b>Novidades</b></h1><br>
+            <!-- Post 1 -->
+            <div class=" h-25">
+                <div class="media">
+                  <img class="img-retract" src="img/novidades/robertdawjpg.jpg"  alt="Generic placeholder image">
+                  <div class="text-notice">
+                  <div class="media-body">
+                    <h3 class="mt-0">Homem de Ferro pode voltar em 2021</h3>
+                   A Marvel comentou sobre abrir o multi-verso da universo Marvel, motivo de alegria para os fãs de ferro que esperam ver o homem de ferro do multi-verso como no filme Homem-Aranha O aranha-verso.  
+                  </div>
+                </div>
+                </div>
+                <hr class="sub-divisor">
+            </div>
+            <!-- Post 2 -->
+            <div class=" h-25">
+              <div class="media">
+                <img class="img-retract" src="img/novidades/chriwsevans.jpg"  alt="Generic placeholder image">
+                <div class="text-notice">
+                <div class="media-body">
+                  <h3 class="mt-0">Novo capitão america<b>??</b></h3>
+                   Com a "aposentadoria" do "cap" dos Vingadores o escudo e alcunha do primeiro vingador passou para o Falcão, o que não agradou muitos os fãs da franquia, pois os mesmo esperavam o Soldado invernal como novo Capitão América. 
+                </div>
+                </div>
+              </div>
+              <hr class="sub-divisor">
+              <div class="sub-divisor"><br><br></div>
+          </div>
+          <br>
+            <!-- Post 3 -->
+            <div class=" h-25">
+              <div class="media">
+                <img class="img-retract" src="img/novidades/chriwshem.jpg"  alt="Generic placeholder image">
+                <div class="text-notice">
+                <div class="media-body">
+                  <h3 class="mt-0">Thor, Love Thunder 2021</h3>
+                   O contexto do filme está deixando a entender que Thor vai morrer e não veremos mais o deus na franquia da Marvel, mas ainda há esperança no multi-verso que a Marvel anda sonando.
+                </div>
+              </div>
+              </div>
+          </div>
+          </div>
+
+          <!-- Segunda Coluna do Container  -->
+          <div class="col-md-4">
+
+            <!-- Sobre -->
+            <div class="card my-4 h-25">
+              <h5 class="card-header">Sobre</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  Este site foi criado para saber
+                  as principais novidades dos melhores
+                  filmes de super-heróis de todos os
+                  tempos.<br> 
+                </div>
+              </div>
+            </div>
+
+            <!--Editorial -->
+            <div class="card my-4">
+              <h5 class="card-header">Editorial</h5>
+              <div class="card-body">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <b>Redação:</b> Gustavo Lemos 
+                      </li>
+                      <li>
+                        <b>Pesquisa:</b> Gustavo Lemos
+                      </li>
+                      <li>
+                        <b>Gerente de Redação:</b> Gustavo Lemos
+                      </li>
+                    </ul>
+              </div>
+            </div>
+
+            <!--Redes Sociais-->
+            <div class="col-md-12">
+                <h3><b>Redes Sociais:</b></h3>
+              <ul class="social-network social-circle">
+                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+              <div class="sub-divisor"></div>
+            </div>
+            </div>
+        </div>
+        <br>
+      </div>
+      <div class="sub-divisor"></div>
+    <!--/Novidades-->  
+ 
+  </main>  
+   <!--/Main--> 
+
+  <!-- Footer -->
+    <footer class="text-muted btn-dark">
+      <div class="container-fluid  btn-dark float-right">
+        <p class=" text-center text-white "><br><br> &copy; Desenvolvido por Gustavo Lemos dos Santos 2020</p>
+        <p class=" text-center text-white ">Todos os direitos reservados.</p>
+        <div class="float-right">
+        <img src="img/geralIncone.png" class="w-25 h-25"><b> GL</b>FILMES<br><br>
+      </div>
+      </div>
+    </footer>
+  <!-- Footer -->
+  
+</body>
+</html>

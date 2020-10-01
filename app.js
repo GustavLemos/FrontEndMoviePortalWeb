@@ -6,3 +6,13 @@ $(document).ready(function(){
     $('.carousel').carousel( randomNumIndex );
     $('.carousel-item').removeClass('transparent');
 });
+//remove video carousel in mobile screen 
+$(document).ready(function(){
+  if ($(window).width() <= 750){
+      
+    $('#video').remove();
+    $('#video-1').remove();
+    $('#video-2').remove();
+
+      }
+    });
